@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:background="@color/default_bg">
+
+        <!-- put a VideoView/SurfaceView here if you want show Danmaku on top of video-->
+        <View
+            android:id="@+id/videoView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/bg_color" />
+
+        <com.opendanmaku.DanmakuView
+            android:id="@+id/danmakuView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:end_Y_offset="0.8"
+            app:max_row="4"
+            app:max_running_per_row="2"
+            app:pick_interval="1000"
+            app:show_debug="false"
+            app:start_Y_offset="0.2" />
+    </FrameLayout>
+
+
+    <Button
+        android:id="@+id/switcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="@string/hide" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:hint="@string/text_hint" />
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/send" />
+
+    </LinearLayout>
+</LinearLayout>

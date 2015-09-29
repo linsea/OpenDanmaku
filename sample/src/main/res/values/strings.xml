@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Danmaku Sample</string>
+
+    <string name="action_settings">action_settings</string>
+    <string name="show">show</string>
+    <string name="hide">hide</string>
+    <string name="send">send</string>
+    <string name="text_hint">input text here</string>
+    <string name="empty_prompt">please input text</string>
+</resources>

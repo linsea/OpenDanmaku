@@ -1,0 +1,5 @@
+<resources>
+    <color name="bg_color">#FF666666</color>
+    <color name="my_item_color">#ff0000</color>
+    <color name="default_bg">#979b9a</color>
+</resources>
