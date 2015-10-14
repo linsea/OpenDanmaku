@@ -57,7 +57,7 @@ Open Danmaku is a Android widget which shows danmaku animation(https://github.co
 
 # License
 
-    Copyright 2015 Andy Ke <dictfb#gmail.com>
+    Copyright 2015 the OpenDanmaku Author <dictfb@gmail.com>
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
