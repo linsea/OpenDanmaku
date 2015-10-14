@@ -12,7 +12,7 @@ Open Danmaku is a Android widget which shows danmaku animation(https://github.co
   1. Download the library source and refer it as a library project.
 
   2. Include the `DanmakuView` in your layout.
-
+```xml
             <com.opendanmaku.DanmakuView
                 android:id="@+id/danmakuView"
                 android:layout_width="fill_parent"
@@ -23,9 +23,9 @@ Open Danmaku is a Android widget which shows danmaku animation(https://github.co
                 app:max_running_per_row="2"
                 app:pick_interval="1000"
                 app:show_debug="false" />
-
+```
   3. In your `Activity`:
-
+```java
             mDanmakuView = (DanmakuView) findViewById(R.id.danmakuView);
 
             // add danmaku items:
@@ -40,7 +40,7 @@ Open Danmaku is a Android widget which shows danmaku animation(https://github.co
 
             //release all playing and waiting items:
             mDanmakuView.clear();
-
+```
 # Customization
 
  * `start_Y_offset` first channel offset to the view top edge.
