@@ -9,8 +9,12 @@ Open Danmaku is a Android widget which shows danmaku animation(https://github.co
 
 *For a working implementation of this project see the sample app.*
 
-  1. Download the library source and refer it as a library project.
-
+  1. add library dependency to your `build.gradle` file.
+```groovy
+            dependencies {
+                compile 'com.linsea:opendanmaku:1.0.0@aar'
+            }
+```
   2. Include the `DanmakuView` in your layout.
 ```xml
             <com.opendanmaku.DanmakuView
