@@ -1,5 +1,7 @@
 # Android Open Danmaku
 
+[中文版说明请点击这里](http://my.oschina.net/u/1403288/blog/521343)
+
 一个Android的弹幕控件.
 Open Danmaku is a Android widget which shows danmaku animation(https://github.com/linsea/OpenDanmaku).
 
